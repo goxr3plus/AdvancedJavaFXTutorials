@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<fx:root type="StackPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane>
+         <center>
+            <ImageView fx:id="imageView" fitHeight="531.0" fitWidth="676.0" pickOnBounds="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@splashScreen.jpg" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <ProgressIndicator maxHeight="30.0" maxWidth="30.0" minHeight="60.0" minWidth="60.0" prefHeight="30.0" prefWidth="30.0" translateX="-10.0" translateY="10.0" StackPane.alignment="TOP_RIGHT" />
+   </children>
+</fx:root>
